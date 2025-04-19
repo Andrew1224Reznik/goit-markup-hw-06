@@ -1273,4 +1273,7 @@ button {
     margin: 0 0 0 80px;
     padding: 0;
   }
+  .footer-container {
+    padding-left: 15px;
+  }
 }
