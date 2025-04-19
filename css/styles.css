@@ -431,7 +431,7 @@ button {
 }
 
 @media screen and (min-resolution: 2x) {
-  .section-one {
+  .hero {
     background-image: linear-gradient(
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
@@ -490,7 +490,7 @@ button {
   }
 
   @media screen and (min-resolution: 2x) {
-    .section-one {
+    .hero {
       background-image: linear-gradient(
           rgba(46, 47, 66, 0.7),
           rgba(46, 47, 66, 0.7)
@@ -523,7 +523,7 @@ button {
   }
 
   @media screen and (min-resolution: 2x) {
-    .section-one {
+    .hero {
       background-image: linear-gradient(
           rgba(46, 47, 66, 0.7),
           rgba(46, 47, 66, 0.7)
@@ -1243,13 +1243,8 @@ button {
   .footer-container {
     align-items: baseline;
     gap: 0;
-    justify-content: flex-start;
-  }
-  .page-footer {
     padding-left: 108px;
-  }
-  .footer-logo {
-    text-align: start;
+    justify-content: flex-start;
   }
   .footer-form {
     gap: 24px;
@@ -1259,6 +1254,7 @@ button {
   }
   .footer-content {
     margin-right: 24px;
+    text-align: start;
   }
   .form-field {
     margin-top: 72px;
